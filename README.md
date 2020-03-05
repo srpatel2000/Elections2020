@@ -1,16 +1,17 @@
 # Elections 2020
-This repository is for the DS3 Projects Committee for Elections 2020. We will be using data regarding the upcoming 2020 elections and past elections to perform sentiment and time series analysis on Twitter data. We ultimately want to figure out if large events have swayed the public's opinion on presidential candidates. Using our findings, we will explain the outcome of past primaries and general elections, while predicting what it going to happen in this upcoming presidential election. 
+This repository is for the DS3 Projects Committee for Elections 2020. We will be using data regarding the upcoming 2020 elections and past elections to perform sentiment and time series analysis on Twitter data. We ultimately want to figure out if large events have swayed the public's opinion on presidential candidates, thus affecting the number of votes. Using our findings, we will find the extent to which public mood affects voting turnouts. 
 
 **Outline**
 1. Scrape tweets from Twitter using a Twitter search API 
 2. Perform Twitter Sentiment Analysis on the tweets based on hashtag
-    1. Categorize the tweets into positive, negative, or neutral sentiments using RNN and classification methods 
-    2. Use Naive Bayes, k-NN, and SVM algorithms to test its accuracy
-    3. Visualize the sentiments for each candidate (how many positive tweets were there, etc.)
+    1. Categorize the tweets into positive, negative, or neutral sentiments using OpinionFinder and Twitter Emotion Recognition  
+    2. Recognize it's accuracy from the sources
+    3. Visualize the sentiments for each candidate with graphs and word cloud(how many positive tweets were there, etc.)
 3. Perform time series forecasting to predict how much sentiment for a candidate fluctuated after a certain large-scale event
-    1. Compare the number of votes a candidate had before and after a large change in sentiment
-        1. Do this using SVM and N. Networking
-    2. Visualize outcomes with a summary tree
+    1. Compare the sentiment towards a candidate before and after a large change in sentiment
+        1. Do this using Granger causality analysis in order to prove causality
+        2. Predict voting turnouts based on number of tweets and sentiment using a Self-organizing Fuzzy Neural Network (SOFNN) model
+    2. Visualize outcomes 
 4. Analyze how much a change in sentiment affects the average number of votes a candidate obtains 
 5. Conclude how public opinion affects voting outcomes for different candidates. 
   
