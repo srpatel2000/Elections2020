@@ -10,8 +10,8 @@ This repository is for the DS3 Projects Committee for Elections 2020. We will be
 3. Perform time series forecasting to predict how much sentiment for a candidate fluctuated after a certain large-scale event
     1. Compare the sentiment towards a candidate before and after a large change in sentiment
         1. Do this using Granger causality analysis in order to prove causality
-        2. Predict voting turnouts based on number of tweets and sentiment using a Self-organizing Fuzzy Neural Network (SOFNN) model
     2. Visualize outcomes 
 4. Analyze how much a change in sentiment affects the average number of votes a candidate obtains 
+    1. Predict voting turnouts based on number of tweets and sentiment using a Self-organizing Fuzzy Neural Network (SOFNN) model
 5. Conclude how public opinion affects voting outcomes for different candidates. 
   
