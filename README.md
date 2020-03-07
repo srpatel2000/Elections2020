@@ -3,7 +3,7 @@ This repository is for the DS3 Projects Committee for Elections 2020. We will be
 
 **Outline**
 1. Scrape tweets from Twitter using a Twitter search API 
-2. Perform Twitter Sentiment Analysis on the tweets based on hashtag
+2. Perform Twitter Sentiment Analysis on the tweets based on query search
     1. Categorize the tweets into positive, negative, or neutral sentiments using OpinionFinder and Twitter Emotion Recognition  
     2. Recognize it's accuracy from the sources
     3. Visualize the sentiments for each candidate with graphs and word cloud(how many positive tweets were there, etc.)
