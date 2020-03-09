@@ -6,10 +6,9 @@ This repository is for the DS3 Projects Committee for Elections 2020. We will be
 2. Perform Twitter Sentiment Analysis on the tweets based on query search
     1. Categorize the tweets into positive, negative, or neutral sentiments using OpinionFinder and Twitter Emotion Recognition  
     2. Recognize its accuracy from the sources
-    3. Visualize the sentiments for each candidate with graphs and word cloud(how many positive tweets were there, etc.)
-3. Perform time series forecasting to predict how much sentiment for a candidate fluctuated after a certain large-scale event based on the number of tweets about a candidate
-    1. Compare the sentiment towards a candidate before and after a large change in sentiment
-        1. Do this using Granger causality analysis in order to prove causality
+    3. Visualize the sentiments for each candidate with graphs and word cloud (how many positive tweets were there, etc.)
+3. Compare the sentiment and number of tweets about a candidate before and after a large-scale event
+    1. Use Granger causality analysis to determine whether sentiment plays a role in the number of tweets tweeted about a candidate
     2. Visualize outcomes 
 4. Analyze how much a change in sentiment affects the average number of followers a candidate obtains on Twitter
     1. Predict follower count based on sentiment using a Self-organizing Fuzzy Neural Network (SOFNN) model
