@@ -13,7 +13,7 @@ This repository is for the DS3 Projects Committee for Elections 2020. We will be
     2. Visualize outcomes 
 4. Analyze how much a change in sentiment affects the average number of followers a candidate obtains on Twitter
     1. Predict follower count based on sentiment using a Self-organizing Fuzzy Neural Network (SOFNN) model
-5. Is there a correlation between the number of followers a candidate has with winning the election? If so, what are the chances?
+5. Is there a correlation between the number of followers a candidate has with the number of votes they received? 
     1. Prove causation with Granger causality analysis 
     
 **Credits**
