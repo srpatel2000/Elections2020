@@ -9,7 +9,6 @@ class TweetManager:
 
     @staticmethod
     def getTweets(tweetCriteria, receiveBuffer=None, bufferLength=100, proxy=None):
-        print("I GOT HERE")
         refreshCursor = ''
         results = []
         resultsAux = []
@@ -130,7 +129,7 @@ class TweetManager:
             response = opener.open(url)
             jsonResponse = response.read()
         except:
-            #print("Twitter weird response. Try to see on browser: ", url)
+            print("Twitter weird response. Try to see on browser: ", url)
             print("Twitter weird response. Try to see on browser: https://twitter.com/search?q=%s&src=typd" % urllib.parse.quote(urlGetData))
             print("Unexpected error:", sys.exc_info()[0])
             sys.exit()
