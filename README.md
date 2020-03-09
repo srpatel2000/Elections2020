@@ -1,5 +1,5 @@
 # Elections 2020
-This repository is for the DS3 Projects Committee for Elections 2020. We will be using data regarding the upcoming 2020 elections and past elections to perform sentiment and time series analysis on Twitter data. We ultimately want to figure out if large events have swayed the public's opinion on presidential candidates, thus affecting the number of votes. Using our findings, we will find the extent to which public mood affects voting turnouts. 
+This repository is for the DS3 Projects Committee for Elections 2020. We will be using data regarding the upcoming 2020 elections and past elections to perform sentiment and time series analysis on Twitter data. We ultimately want to figure out if large events have swayed the public's opinion on presidential candidates, thus affecting the number of votes. Using our findings, we will find the extent to which public mood affects voting turnouts. In this project, we will be focusing on five candidates: Donald Trump, Joe Biden, Bernie Sanders, Mike Bloomberg, and Elizabeth Warren. 
 
 **Outline**
 1. Scrape tweets from Twitter using a Twitter search API 
