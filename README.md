@@ -3,13 +3,14 @@ This repository is for the DS3 Projects Committee for Elections 2020. We will be
 
 **Outline**
 1. Scrape tweets from Twitter using a Twitter search API 
-2. Perform Twitter Sentiment Analysis on the tweets based on query search
+    1. Visualize most common words said about candidates using a word cloud
+2. Perform Twitter Sentiment Analysis on the tweets based on query search before, day of, and after the most viewed Democratic debate
     1. Categorize the tweets into positive, negative, or neutral sentiments using Naive Bayes classifier module from NLTK 
-    2. Recognize its accuracy from the sources
-    3. Visualize the sentiments for each candidate with graphs and word cloud (how many positive tweets were there, etc.)
+    2. Recognize its accuracy using a confusion matrix
+    3. Visualize the changing sentiments for each candidate with graphs 
 3. Compare the sentiment and number of tweets about a candidate before and after the ninth Democratic Debate
-    1. Use Granger causality analysis to determine whether sentiment plays a role in the number of tweets tweeted about a candidate
-    2. Visualize outcomes 
+    1. Visualize sentiment and number of tweets together in a graph
+    2. Use Granger causality analysis to determine whether sentiment plays a role in the number of tweets tweeted about a candidate 
 4. Analyze how much a change in the sentiment affects the number of tweets that are tweeted about a candidate
     1. Predict number of tweets based on sentiment using a Self-organizing Fuzzy Neural Network (SOFNN) model
 5. Is there a correlation between the number of tweets and winning the elections? 
