@@ -4,17 +4,17 @@ This repository is for the DS3 Projects Committee for Elections 2020. We will be
 **Outline**
 1. Scrape tweets from Twitter using a Twitter search API 
     1. Visualize most common words said about candidates using a word cloud
-2. Perform Twitter Sentiment Analysis on the tweets based on query search before, day of, and after the most viewed Democratic debate
+2. Perform Twitter Sentiment Analysis on the tweets based on query search before, day of, and after the most viewed Democratic debate. (9th Dem Debate b/c that was the most viewed debate)
     1. Categorize the tweets into positive, negative, or neutral sentiments using Naive Bayes classifier module from NLTK 
-    2. Recognize its accuracy using a confusion matrix
+    2. Recognize its accuracy
+        1. Test out other methods (Multinomial Naive Bayes, Bernoulli Naive Bayes, Logistic Regression, Stochastic Gradient Descent and Support Vector Classifier) if the accuracy is not adequate
     3. Visualize the changing sentiments for each candidate with graphs 
-3. Compare the sentiment and number of tweets about a candidate before and after the ninth Democratic Debate
-    1. Visualize sentiment and number of tweets together in a graph
-    2. Use Granger causality analysis to determine whether sentiment plays a role in the number of tweets tweeted about a candidate 
-4. Analyze how much a change in the sentiment affects the number of tweets that are tweeted about a candidate
-    1. Predict number of tweets based on sentiment using a Self-organizing Fuzzy Neural Network (SOFNN) model
-5. Is there a correlation between the number of tweets and winning the elections? 
-    1. Prove causation with Granger causality analysis 
+3. Visualize the endorser number for each candidate to see what kinds of people endorse the certain candidates
+    1. Visualize with grouped bar chart
+4. Compare the sentiment of a candidate before and after the ninth Democratic Debate with the types of endorsers. This will answer the question: Is there a correlation between the type of endorser a candidate has with the sentiment of their tweets?
+    1. Visualize sentiment and number of tweets together in a joint plot with seaborn
+    2. Perform causality analysis to determine whether endorsers affect the overall sentiment surrounding a candidate
+        1. If there is a causal relationship, determine the extent to which certain endorsers affect sentiment. Do this with a neural network algorithm. --> Possibly the future goal to get done this spring break. 
     
 **Credits**
 
